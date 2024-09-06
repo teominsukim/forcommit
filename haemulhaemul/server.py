@@ -4,7 +4,7 @@ import chatbot
 app = Flask(__name__)
 
 @app.route('/')
-def home():
+def root():
     return "conect successfully"
 
 @app.route('/chatbot', methods=['POST'])

@@ -115,7 +115,7 @@ def crawing_pdfs():
 
 crawing_pdfs()
 
-
+# PNG 업로드
 # 객체로 변환하기 
 doc2 = Document(text=doc2_text)
 # Document 객체 출력
